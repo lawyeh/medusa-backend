@@ -55,10 +55,6 @@ const plugins = [
 ];
 
 const modules = {
-  featureFlags: {
-    product_categories: true,
-    analytics: true,
-  },
   eventBus: {
     resolve: '@medusajs/event-bus-redis',
     options: {
